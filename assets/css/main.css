@@ -92,7 +92,7 @@ body {
       rgba(0, 0, 0, 0) 40.1%,
       #000000 97.4%
     ),
-    url(/assets/img/Header.png);
+    url("../img/Header.png");
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -278,7 +278,7 @@ body {
 }
 
 .article-thumbnail__link::after {
-  content: url("/assets/icons/chevron-right.svg");
+  content: url("../icons/chevron-right.svg");
   margin-left: 8px;
 }
 
@@ -665,7 +665,7 @@ body {
   }
   .subscribe-section {
     padding: 50px 67px;
-    background-image: url("/assets/img/tea-background.png");
+    background-image: url("../img/tea-background.png");
     background-position: right;
     background-repeat: no-repeat;
   }
